@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "dashboardWorld"
+    }
+  },
+  "defaultProject": "dashboardWorld",
+  "cli": {
+    "analytics": "e336e34a-9056-4523-8a5a-a7ac314b993c"
+  }
 }
