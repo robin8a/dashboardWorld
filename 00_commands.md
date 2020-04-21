@@ -27,6 +27,13 @@ git remote add origin https://github.com/robin8a/dashboardWorld.git
 git config --global credential.helper store
 
 
+# Renaming git commands
+
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.pu push
+
 ```
 
 # Installing angular-material, highcharts, flex-layout
