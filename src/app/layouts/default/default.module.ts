@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DefaultComponent } from '../../layouts/default/default.component';
 import { DashboardComponent } from '../../modules/dashboard/dashboard.component';
-
+import { RouterModule } from '@angular/router';
 
 
 
@@ -12,7 +12,8 @@ import { DashboardComponent } from '../../modules/dashboard/dashboard.component'
     DashboardComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class DefaultModule { }
