@@ -73,3 +73,10 @@ ng g c shared/components/sidebar
 ng g module shared
 
 ```
+
+# Adding Posts
+
+```sh
+ng g c modules/posts
+```
+
