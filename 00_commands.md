@@ -55,12 +55,21 @@ npm i @angular/flex-layout @angular/cdk --save
 
 ```
 
-# Adding modules
+# Adding modules default and layout
 
 ```sh
 ng g c layouts/default
 ng g m layouts/default
 
 ng g c modules/dashboard
+
+```
+
+# Adding components (header, footer, sidebar) and module (shared)
+```sh
+ng g c shared/components/header
+ng g c shared/components/footer
+ng g c shared/components/sidebar
+ng g module shared
 
 ```
