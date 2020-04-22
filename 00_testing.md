@@ -7,7 +7,7 @@
 ## Cloud9
 ```sh
 cd dashboardWorld/
-# For Clou
+# For Cloud9
 ng serve --host 0.0.0.0 --port 8080 --disableHostCheck
 
 # On IDE Cloud9: Preview - Preview run application
