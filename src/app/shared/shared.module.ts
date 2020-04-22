@@ -25,7 +25,7 @@ import { MatMenuModule } from '@angular/material/menu';
     MatToolbarModule,
     MatIconModule,
     FlexLayoutModule,
-    // MatMenuModule
+    MatMenuModule
   ],
   exports: [
     HeaderComponent,
