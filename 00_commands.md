@@ -54,3 +54,13 @@ npm i highcharts --save
 npm i @angular/flex-layout @angular/cdk --save
 
 ```
+
+# Adding modules
+
+```sh
+ng g c layouts/default
+ng g m layouts/default
+
+ng g c modules/dashboard
+
+```
